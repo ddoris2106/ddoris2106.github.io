@@ -40,9 +40,17 @@ figure {
 }
 video {
 	width:100%;
+	/*height: 100%*/
 }
 .title_img{
 	width:100%;
+	font-size: 7rem;
+	color: rgb(70, 21, 97);
+	line-height: 6rem;
+}
+#subtitle{
+	font-size: 5rem;
+	line-height: 3rem;
 }
 #draggable{
 	top:0px;
@@ -56,6 +64,7 @@ video {
 	padding:0;
 	margin:0;
 }
+
 .controls {
 	overflow:hidden;
 	background:transparent;
@@ -99,25 +108,25 @@ video {
 	opacity:0.5;
 }
 .controls button[data-state="play"] {
-	background-image: url('../media/buttons-play.png');
+	background-image: url('../media/new-play.png');
 }
 .controls button[data-state="pause"] {
-	background-image: url('../media/buttons-pause.png');
+	background-image: url('../media/new-pause.png');
 }
 .controls button[data-state="stop"] {
-	background-image: url('../media/buttons-stop.png');
+	background-image: url('../media/new-stop.png');
 }
 .controls button[data-state="mute"] {
-	background-image: url('../media/buttons-mute.png');
+	background-image: url('../media/new-mute.png');
 }
 .controls button[data-state="unmute"] {
-	background-image: url('../media/buttons-unmute.png');
+	background-image: url('../media/new-unmute.png');
 }
 .controls button[data-state="volup"] {
-	background-image: url('../media/buttons-volup.png');
+	background-image: url('../media/new-volume-up.png');
 }
 .controls button[data-state="voldown"] {
-	background-image: url('../media/buttons-voldown.png');
+	background-image: url('../media/new-volume-down.png');
 }
 
 .controls progress {
@@ -128,7 +137,7 @@ video {
 	width: 100%;
 	height: 100%;
 	display: inline-block;
-	background: rgb(148, 187, 233);
+	background: rgb(167, 77, 209);
 	top:0px;
 	z-index: -10;
 }
