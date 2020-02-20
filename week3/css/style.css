@@ -1,0 +1,119 @@
+#package{
+	width: 720px;
+	height: 240px;
+	background-color: rgb(79, 36, 8);
+	margin: 15px auto;
+	position: relative;
+}
+
+#title{
+	/* horizontal + vertical center align - child div */
+	margin: 0;
+	padding-top: -10px;
+	padding-bottom: -10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/*//////*/
+	font-size: 175px;
+	background-color: white;
+	color: rgb(79, 36, 8);
+	font-style: italic;
+	font-weight: bold;
+	-webkit-text-stroke-width: 5px;
+	-webkit-text-stroke-color: black;
+	letter-spacing: -3px;
+}
+
+#subtitle1{
+	position: absolute;
+	top: 6%;
+	left: 8%;
+	padding: 5px;
+	color: rgb(255,255,153);
+	background-color: rgb(79, 36, 8);
+	border: 3px solid rgb(130, 56, 7);
+	border-radius: 15px;
+	/* font-family: sans-serif; */
+	/* font-style: italic; */
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 16px;
+}
+
+#subtitle2{
+	position: absolute;
+	top: 21%;
+	left: 8%;
+	color: white;
+	background-color: rgb(79, 36, 8);
+	border-top: 3px solid rgb(130, 56, 7);
+	border-bottom: 3px solid rgb(130, 56, 7);
+	/* transform: translate(-50%, 0%); */
+	/* font-family: sans-serif; */
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 8px;
+	padding: 5px;
+}
+
+#subtitle3{
+	position: absolute;
+	top: 75%;
+	left: 14%;
+	/* transform: translate(-50%, 0%); */
+	font-family: sans-serif;
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 14px;
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: rgb(101, 67, 33);
+	color: white;
+	padding: 5px;
+}
+
+#weight{
+	position: absolute;
+	bottom: 0%;
+	left: 3%;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 14px;
+	-webkit-text-stroke-width: 0.75px;
+	-webkit-text-stroke-color: rgb(101, 67, 33);
+	color: white;
+	padding: 2px;
+}
+
+#calories{
+	position: absolute;
+	bottom: 20%;
+	left: 3%;
+	font-family: sans-serif;
+	font-size: 9px;
+	text-align: center;
+	background-color:white;
+	border:3px solid black;
+	border-radius: 12%;
+	padding: 6px;
+	line-height: 1.5em;
+}
+
+#cal_number{
+	font-size: 19px;
+}
+
+.cal_info{
+	background-color: green;
+	padding: 3px;
+}
+
+#original_img_container{
+	width: 720px;
+	margin: 5px auto;
+}
+
+#original_img{
+	width: 100%;
+}
