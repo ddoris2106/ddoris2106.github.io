@@ -1,15 +1,67 @@
-body{
-	background-color: #dddddd;
+.container{
+	position: absolute;
+	left: 10%;
+	width: 1900px;
+	height: 800px;
+	margin: 5px auto;
+	top: 10%;
+	background-image: url("../media/emp-state.jpg");
+	background-repeat: no-repeat;
+	background-size: 800px 800px;
+	/*background-color: blue;*/
+	background-position: center;
 }
 
-.main_div{
-	width: 50%;
-	background-color: transparent;
-	border-radius: 40px;
-	border:1px dotted black;
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Kavoon', display;
+	font-size: 120px;
+	transition: -webkit-text-stroke-color 2s, color 2s;
+}
+.title:hover{
+	color:transparent;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+.menu{
+	margin:24px;
+}
+.menu_list{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	font-family: 'Monoton', serif;
+  	font-size: 34px;
+}
+.work_list{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	font-family: 'Bad Script', cursive;
+  	font-size: 24px;
+}
+#menu_home:hover{
+	color:skyblue;
+}
+#menu_about:hover{
+	color:skyblue;
+}
+#menu_works:hover{
+	color:skyblue;
 }
 
-#img1{
-	width: 50%;
-	padding: 20px;
+a:link{
+	text-decoration: none;
+	color: rgb(230, 201, 242);
+}
+
+a:visited{
+	color: rgb(98, 16, 133);
+}
+
+a:hover{
+	color: black;
 }

@@ -1,0 +1,44 @@
+body{
+	background-color: #dddddd;
+}
+
+.main_div{
+	width: 25%;
+	height: auto;
+	background-color: transparent;
+	/*border-radius: 40px;
+	border:1px dotted black;*/
+	position: absolute;
+	right: 0;
+}
+
+#img1{
+	width: 60%;
+	padding: 5px;
+	position: absolute;
+	right: 0;
+}
+
+h1, h2, h3{
+	font-family: 'Kavoon', display;
+	font-size: 8rem;
+	margin: 5px;
+	color: rgb(230, 201, 242);
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: black;
+}
+
+h2 {
+	font-size: 4rem;
+	-webkit-text-stroke-width: 2px;
+}
+
+h3{
+	font-size: 2rem;
+	-webkit-text-stroke-width: 2px;
+}
+
+.nav{
+	float: left;
+	margin-right: 100px;
+}
