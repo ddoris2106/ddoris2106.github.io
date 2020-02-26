@@ -1,8 +1,10 @@
 .container{
 	position: absolute;
 	left: 10%;
-	width: 1900px;
-	height: 800px;
+	/*width: 1900px;
+	height: 800px;*/
+	width: 50%;
+	height: 50%;
 	margin: 5px auto;
 	top: 10%;
 	background-image: url("../media/emp-state.jpg");
