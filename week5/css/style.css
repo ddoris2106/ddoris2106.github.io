@@ -1,0 +1,152 @@
+body{
+	background-color: darkblue;
+}
+.left_container{
+	position:fixed;
+	/*top:3%;*/
+	left:4%;
+	bottom: 10%;
+	width:20%;
+	height: 60%;
+	/*text-align: left;*/
+}
+.right_container{
+	position:fixed;
+	/*top:3%;*/
+	right:4%;
+	bottom: 25%;
+	width:20%;
+	height: 60%;
+	z-index: -1;
+	/*text-align: right;*/
+}
+.left_img{
+	width: 100%;
+	height: 100%;
+}
+.right_img{
+	width: 100%;
+	height: 100%;
+}
+.ball_con{
+	/*width: 2.5%;*/
+	height: 15vh;
+	display: none;
+	overflow: auto;
+	position: absolute;
+	left: 35%;
+	top: 23%
+}
+.ball_con2{
+	height: 12vh;
+	display: none;
+	overflow: auto;
+	position: absolute;
+	right: 30%;
+	top: 35%
+}
+.ball_con3{
+	height: 8vh;
+	display: none;
+	overflow: auto;
+	position: absolute;
+	right: 11.5%;
+	bottom: 30%
+}
+#ball_img{
+	height: 100%;
+	display: none;
+}
+#ball_img2{
+	height: 100%;
+	display: none;
+}
+#ball_img3{
+	height: 100%;
+	display: none;
+}
+.hidden1{
+	/*display: none;
+	width: 30%;
+	height: 30%;
+	position: fixed;
+	top:40%;
+	right: 15%;
+	font-family: 'Bad Script', cursive;
+  	margin: 0px auto;
+  	z-index: 10;*/
+  	display: none;
+	/*width: 30%;*/
+	height: 15%;
+	position: absolute;
+	top:10%;
+	left: 20%;
+	font-family: 'Bangers';
+  	margin: 0px auto;
+  	font-size: 5rem;
+  	color: purple;
+  	/*z-index: 10;*/
+}
+.hidden2{
+	/*display: none;
+	width: 10%;
+	height: 30%;
+	position: fixed;
+	top:20%;
+	left: 35%;*/
+	display: none;
+	/*width: 25%;*/
+	height: 15%;
+	position: absolute;
+	bottom:15%;
+	right: 12%;
+	font-family: 'Bangers';
+  	margin: 0px;
+  	padding: 0px;
+  	font-size: 7.5rem;
+  	color: red;
+}
+/*.jelly_img{
+	height: 100%;
+}*/
+@media only screen and (min-width: 1800px) {
+	.ball_con3, #ball_img3{
+ 		display: inherit;
+	}
+}
+@media only screen and (min-width: 1900px) {
+ 	.hidden2 {
+		display: inherit;
+	}
+}
+@media only screen and (min-width: 1600px) {
+	.ball_con2, #ball_img2{
+ 		display: inherit;
+	}
+}
+@media only screen and (min-width: 1300px) {
+	.ball_con, #ball_img{
+ 		display: inherit;
+	}
+}
+@media only screen and (min-width: 1000px) {
+ 	.hidden1 {
+		display: inherit;
+	}
+}
+@media only screen and (max-width: 1300px) {
+	.left_container{
+		width: 35%;
+	}
+	.right_container{
+		width: 35%;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.left_container{
+		width: 40%;
+	}
+	.right_container{
+		width: 40%;
+	}
+}
