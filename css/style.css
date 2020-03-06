@@ -21,12 +21,22 @@
 	transform: translate(-50%, -50%);
 	font-family: 'Kavoon', display;
 	font-size: 120px;
+	text-align: center;
 	transition: -webkit-text-stroke-color 2s, color 2s;
 }
 .title:hover{
 	color:transparent;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: black;
+}
+.social{
+	position: absolute;
+	top: 10%;
+	right: 0%;
+	transform: translate(-50%, -50%);
+	font-family: 'Kavoon', display;
+	font-size: 40px;
+	transition: -webkit-text-stroke-color 2s, color 2s;
 }
 .menu{
 	margin:24px;
@@ -67,3 +77,148 @@ a:visited{
 a:hover{
 	color: black;
 }
+
+.animation_container{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: black;
+	z-index: 1;
+	animation-name: screen_animation;
+	animation-duration: 3s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+}
+
+#battery{
+	border: 5px solid white;
+	height: 40%;
+	width: 10%;
+	position: fixed;
+	left: 45%;
+	top: 25%;
+}
+
+#top_block, #middle_block, #bottom_block{
+	display: none;
+	width: 100%;
+	height: 33.3%;
+	opacity: 0.75;
+}
+
+#top_block{
+	background-color: green;
+	animation-name: top-fill;
+	animation-duration: 1s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+#middle_block{
+	background-color: yellow;
+	animation-name: middle-fill;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	/*margin-top: 10%;*/
+	/*margin-bottom: 10%;*/
+}
+
+#bottom_block{
+	background-color: red;
+	position: absolute;
+	bottom: 0;
+	animation-name: bottom-fill;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes screen_animation{
+	0%{
+		opacity: 1;
+	}
+	99%{
+		opacity: 1;
+		z-index: 1;
+	}
+	100%{
+		opacity: 0;
+		z-index: -1;
+	}
+}
+
+@keyframes bottom_fill{
+	0%{
+		display: initial;
+	}
+	100%{
+	/*	display: inherit;*/
+	}
+}
+
+@keyframes middle_fill{
+	0%{
+		display: initial;
+	}
+	100%{
+		/*display: inherit;*/
+		opacity: 0.9;
+	}
+}
+
+@keyframes top_fill{
+	0%{
+		display: initial;
+	}
+	100%{
+		/*display: inherit;*/
+		opacity: 1;
+	}
+}
+
+
+@media only screen and (max-width: 1500px) {
+	.title {
+		font-size: 100px;
+		color: blue;
+	}
+	.social {
+		font-size: 36px;
+		color: blue;
+	}
+	.menu_list {
+		font-size: 32px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.title {
+		font-size: 50px;
+		color: red;
+	}
+	.social {
+		font-size: 18px;
+		color: red;
+	}
+	.menu_list {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.title {
+		font-size: 50px;
+		color: red;
+	}
+	.social {
+		font-size: 18px;
+		color: red;
+	}
+	.menu {
+		display: inline-block;
+	}
+}
+
