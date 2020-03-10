@@ -119,7 +119,7 @@ a:hover{
 #middle_block{
 	background-color: yellow;
 	animation-name: middle_fill;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-delay: 1s;
 	animation-fill-mode: forwards;
 	/*margin-top: 10%;*/
@@ -131,7 +131,7 @@ a:hover{
 	position: absolute;
 	bottom: 0;
 	animation-name: bottom_fill;
-	animation-duration: 1s;
+	animation-duration: 3s;
 	animation-delay: 0s;
 	animation-fill-mode: forwards;
 }
@@ -154,11 +154,22 @@ a:hover{
 	0%{
 		opacity: 0;
 	}
-	50%{
-		opacity: 0;
+	33%{
+		opacity: 0.5;
+	34%{
+		background-color: yellow;
+		opacity: 0.7;
+	}
+	66%{
+		background-color: yellow;
+		opacity: 0.7;
+	}
+	67%{
+		background-color: green;
+		opacity: 0.9;
 	}
 	100%{
-		opacity: 0.7;
+		opacity: 0.9;
 	
 	}
 }
@@ -167,11 +178,19 @@ a:hover{
 	0%{
 		opacity: 0;
 	}
+	1%{
+		opacity: 0.7%;
+	}
+	49%{
+		opacity: 0.7%;
+		background-color: yellow;
+	}
 	50%{
-		opacity: 0;
+		background-color: green;
+		opacity: 0.9;
 	}
 	100%{
-		opacity: 0.8;
+		opacity: 0.9;
 		
 	}
 }
@@ -181,10 +200,10 @@ a:hover{
 		opacity: 0;
 	}
 	50%{
-		opacity: 0;
+		opacity: 0.9;
 	}
 	100%{
-		opacity: 1;
+		opacity: 0.9;
 		
 	}
 }
@@ -371,7 +390,7 @@ a:hover{
 	animation-fill-mode: forwards;
 }
 
-@keyframes screen_animation{
+/* @keyframes screen_animation{
 	0%{
 		opacity: 1;
 	}
@@ -390,7 +409,7 @@ a:hover{
 		display: initial;
 	}
 	100%{
-	/*	display: inherit;*/
+		display: inherit;
 	}
 }
 
@@ -399,7 +418,7 @@ a:hover{
 		display: initial;
 	}
 	100%{
-		/*display: inherit;*/
+		display: inherit;
 		opacity: 0.9;
 	}
 }
@@ -409,10 +428,10 @@ a:hover{
 		display: initial;
 	}
 	100%{
-		/*display: inherit;*/
+		display: inherit;
 		opacity: 1;
 	}
-}
+} */
 
 
 @media only screen and (max-width: 1500px) {
