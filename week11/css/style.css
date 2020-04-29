@@ -1,0 +1,7 @@
+html{
+    box-sizing: border-box;
+}
+#heart{
+    width: 50%;
+    overflow: hidden;
+}
