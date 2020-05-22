@@ -581,6 +581,7 @@ a{
         width: 4%;
         height: 75%;
         margin-left: 1rem;
+        margin-bottom: 2rem;
     }
 
     #name{
@@ -656,6 +657,7 @@ a{
 
     #logo{
         height: 80%;
+        margin-bottom: 4rem;
     }
 
     #name{
@@ -667,24 +669,9 @@ a{
     }
 
     #svgContainer{
+        top: -3.5rem;
         /* left: 35%; */
         /* width: 25%; */
-    }
-
-    #menuContainer{
-        padding-top: 0.25rem;
-        /* right: 0.5rem; */
-        width: 5%;
-        height: 3.5rem;
-    }
-
-    #menuIcon, #about, #contact, #works{
-        margin: 0.1rem auto 0;
-        height: 3em;
-    }
-
-    #menuIMG, #aboutIMG, #contactIMG, #worksIMG{
-        /* padding: 0.25rem; */
     }
 
     .footerContact{
@@ -739,6 +726,7 @@ a{
 @media only screen and (max-width: 600px) {
     #logo{
         height: 75%;
+        /* margin-bottom: 4rem; */
     }
 
     #name{
@@ -752,9 +740,9 @@ a{
 
     #svgContainer{
         /* left: 28.5%; */
+        top: -4.5rem;
         height: 75%;
         width: 30%;
-
     }
 
     #header{
