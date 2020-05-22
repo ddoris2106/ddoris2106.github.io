@@ -142,6 +142,26 @@ video {
 	z-index: -10;
 }
 
+#backButton{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: auto;
+	height: auto;
+	border: 0.3rem solid black;
+	/* padding: 1.5rem; */
+	font-size: 1rem;
+}
+
+#backButton a{
+	text-decoration: none;
+	color: black;
+	padding: 1.25rem;
+	display: inline-block;
+	/* width: 75%; */
+	/* height: 75%; */
+}
+
 /* Media Queries */
 @media screen and (max-width:1024px) {
 	figure {

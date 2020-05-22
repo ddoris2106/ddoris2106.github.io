@@ -3,6 +3,27 @@
     <head>
         <meta charset="utf-8">
         <title>Random Poem</title>
+        <style media="screen">
+            #backButton{
+                position: fixed;
+                right: 0;
+                bottom: 0;
+                width: auto;
+                height: auto;
+                border: 0.3rem solid black;
+                /* padding: 1.5rem; */
+                font-size: 1rem;
+            }
+
+            #backButton a{
+                text-decoration: none;
+                color: black;
+                padding: 1.25rem;
+                display: inline-block;
+                /* width: 75%; */
+                /* height: 75%; */
+            }
+        </style>
     </head>
     <body>
         <div id="poem">
@@ -11,6 +32,9 @@
                 Life is a broken-winged bird <br>
                 <span id="birds">That</span> cannot fly.</p>
         </div>
+
+        <div id="backButton"><a href="../works.html">BACK</a></div>
+
         <button onclick="myFunction()">Shuffle</button>
 
         <script>
