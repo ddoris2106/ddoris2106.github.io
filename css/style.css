@@ -495,7 +495,7 @@ a{
 
 .workContent{
     padding-top: 4rem;
-    margin-top: 1.5rem;
+    margin-top: 4rem;
     padding-bottom: 4rem;
 }
 
@@ -684,7 +684,7 @@ a{
         height: 1.25rem;
         margin: 0 0.25rem;
     }
-    
+
     .imgContainer{
         float: none;
         padding-top: 1.5rem;
