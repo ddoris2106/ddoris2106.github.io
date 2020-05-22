@@ -1,0 +1,119 @@
+body{
+    line-height: 2;
+    background-color: rgb(255,172,170);
+    max-resolution: 10%;
+}
+@font-face {
+    font-family: "Ranchers";
+    src: url(Ranchers-Regular.ttf)
+}
+/* .head{
+    width: 98.8%;
+    height: 10%;
+    background-color: rgba(0,0,0,0.25);
+    background-color: rgb(153, 76, 41);
+    background-color: rgb(100, 100, 100);
+    border: 7px solid rgb(107, 3, 0);
+    border-radius: 0px;
+    padding-top: 0px;
+    position: fixed;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 10px;
+    z-index: auto;
+} */
+
+h1, h2, h3{
+    font-size: 6em;
+    font-family: Ranchers;
+    color: rgb(107, 3, 0);
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.Child{
+    font-size: 3em;
+}
+/* .navhead{
+    background-color: white;
+    font-size: 3em;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: -17px;
+    margin-bottom: auto;
+}
+.navA{
+    font-weight: bold;
+    font-size: 2em;
+    position: relative;
+    left: 500px;
+    margin-right: 20px;
+    margin-top: -17px;
+    margin-bottom: auto;
+} */
+
+img{
+    padding: 10px;
+    border: 3px solid rgb(107, 3, 0);
+    border-radius: 10px;
+}
+
+.background-Img{
+    display: block;
+    position: relative;
+    width: 98%;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 3px solid rgb(107, 3, 0);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+#About-Me{
+    margin-bottom: -15px;
+    margin-left: 20px;
+}
+
+#picD{
+    float: left;
+    width: 300px;
+    margin: 0px 20px 0px;
+}
+
+.sub{
+    font-size: 2em;
+}
+
+#description{
+    border: 4px solid rgba(0,0,0, 0.4);
+    background-color: rgb(255,113,113);
+    width: 85%;
+    height: 700px;
+}
+
+div{
+    border: 4px solid rgb(0,0,0);
+    border: 4px solid rgba(0,0,0, 0.4);
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(0,0,0);
+    border-radius: 25px;
+    padding: 5px 0px 10px 15px;
+    width: 400px;
+    background-color: rgb(255,113,113);
+    margin-left: 20px;
+}
+
+a, p{
+    color: rgb(107, 3, 0);
+    font-size: 26px;
+    font-family: Candara, sans-serif;
+}
+
+.pic{
+    /* border: 5px solid white; */
+    /* position: relative; */
+    /* left: 100px; */
+}

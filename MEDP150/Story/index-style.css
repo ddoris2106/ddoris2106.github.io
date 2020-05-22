@@ -1,0 +1,110 @@
+/***************
+Colors
+Red: rgb(232, 49, 81)
+Gray: rgb(117, 119, 128)
+White: rgb(255, 246, 244)
+ */
+
+html{
+    box-sizing: border-box;
+    font-size: 1.25vw;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: rgb(117, 119, 128);
+}
+
+@font-face {
+    font-family: "Knewave";
+    src: url(Knewave-Regular.ttf)
+}
+
+h1, h2, a, p{
+    font-family: "Knewave", fantasy;
+    font-size: 4.5rem;
+}
+
+h1{
+    color: black;
+    text-shadow: 4px 4px rgb(232, 49, 81), 4px -4px rgb(232, 49, 81), -4px -4px rgb(232, 49, 81), -4px 4px rgb(232, 49, 81);
+    letter-spacing: 3px;
+    margin: 5px 7px;
+}
+
+h2{
+    font-size: 1.75rem;
+    color: rgb(255, 246, 244);
+    text-shadow: 3px 3px 2px black;
+    margin-top: 3px;
+    width: 70vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: black; */
+}
+
+div{
+    border: 2px solid black;
+    width: 72vw;
+    height: 67vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#noh2{
+    margin-top: 5%;
+}
+
+#noh2 p{
+    bottom: 7%;
+}
+
+#noh2 a{
+    bottom: 10vh;
+}
+
+a{
+    font-size: 1.25rem;
+    color: black;
+}
+
+div a{
+    text-decoration: none;
+    border: 3px solid rgba(0,0,0,0.75);
+    background-color: rgba(0,0,0,0.55);
+    padding: 10px;
+    font-size: 2.5rem;
+    color: rgb(232, 49, 81);
+    text-shadow: 3px 2px black, 3px -2px black, -3px 2px black, -3px -2px black;
+    position: absolute;
+    bottom: 5vh;
+    right: 15vw;
+
+    /* background-color: black; */
+}
+
+.top{
+    bottom: 18vh;
+}
+
+div p{
+    font-size: 1.25rem;
+    color: rgb(255, 246, 244);
+    text-shadow: 3px 3px 2px black;
+    position: absolute;
+    bottom: 3%;
+    left: 25vw;
+}
+
+img{
+    width: 70vw;
+    height: 65vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}

@@ -1,0 +1,391 @@
+html{
+    box-sizing: border-box;
+    font-size: 1.25vw;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    line-height: 2;
+    /* background-color: rgb(255,172,170); */
+    /* background-color: rgb(255,113,113); */
+    background-color: rgb(255,255,255);
+    /* max-resolution: 10%; */
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "Ranchers";
+    src: url(Ranchers-Regular.ttf)
+}
+h1, h2, h3{
+    font-size: 6rem;
+    font-family: Ranchers;
+    color: rgb(107, 3, 0);
+    margin: 10px;
+}
+
+a, p{
+    color: rgb(107, 3, 0);
+    font-size: 26px;
+    font-family: Candara, sans-serif;
+}
+
+h2{
+    font-size: 4.25rem;
+}
+
+h3{
+    font-size: 2.25rem;
+}
+
+@media (max-width: 1345px){
+    .new{
+        height: 395px;
+    }
+
+    .new h3{
+        height: 45%;
+    }
+
+    .text{
+        width: 700px;
+        height: 500px;
+    }
+
+    #description{
+        height: 630px;
+    }
+}
+
+@media (min-width: 1346px){
+    .text{
+        width: 55%;
+    }
+
+    .new h3{
+        margin-bottom: 100px;
+    }
+}
+.new{
+    /* border: 2px solid black; */
+    overflow: hidden;
+    /* background-color: rgb(255,172, 170); */
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-left: 25px;
+    /* padding-bottom: 15px; */
+
+}
+
+.text{
+    /* overflow: auto; */
+    float: left;
+    /* margin-bottom: 15px; */
+}
+
+.new h2{
+    /* border: 2px solid black; */
+    text-align: left;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.new h3{
+    /* border: 2px solid black; */
+    display: inline-block;
+    float: left;
+    margin: 0px;
+    margin-right: 20px;
+    margin-left: 25px;
+    padding-bottom: 0px;
+    font-size: 1.75rem;
+}
+
+.new img{
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin: 3px 5px;
+    height: 225px;
+}
+
+.new p{
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    margin: 0px;
+    padding-right: 5px;
+    font-size: 1.4rem;
+    /* width: 85%; */
+}
+
+.child{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.head{
+    width: 100%;
+    height: 8.5%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255,172,170);
+    /* background-color: rgb(255,113,113); */
+    /* border-bottom: 5px solid rgb(107, 3, 0); */
+    box-shadow: 0px 5px 5px rgb(107, 3, 0);
+    /* border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px; */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    display: block;
+}
+
+.head a, .head h1{
+    margin-top: -3px;
+    margin-left: 18px;
+}
+
+.head h1{
+    font-size: 2rem;
+}
+
+.head a{
+    font-size: 1.5rem;
+}
+
+.disp{
+    width: 100%;
+    /* height: 450px; */
+    height: 100vh;
+    /* background-blend-mode: screen;
+    background-image:  linear-gradient(to right, rgba(248,80,50,1) 0%, rgba(231,56,39,0.48) 100%), url(City-Sun.jpeg); */
+    background-image: url(Images/City-Sun.jpeg);
+    background-size: 100%;
+    /* position: absolute; */
+    top: 40px;
+    display: block;
+    background-position: top-right;
+    /* border: 0px solid black; */
+    padding: 0px;
+    margin: 0;
+}
+
+.disp h1{
+    padding-top: 10rem;
+    /* position: relative; */
+    /* top:5rem; */
+    /* right: 50px; */
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    /* transform: translate(-50%, 50%); */
+}
+
+.disp p{
+    /* position: relative;
+    top:100px; */
+
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.navhead{
+    /* background-color: white; */
+    /* font-size: 3rem; */
+    display: inline-block;
+    /* padding: 5px; */
+    /* margin-left: -20px; */
+    /* margin-top: -17px; */
+    /* margin-bottom: auto; */
+}
+.navA{
+    font-weight: bold;
+    /* font-size: 2em; */
+    position: relative;
+    left: 5%;
+    margin-right: 20px;
+    /* margin-top: -17px; */
+    /* margin-bottom: auto; */
+}
+
+img{
+    padding: 10px;
+    margin: 5px;
+    border: 3px solid rgb(107, 3, 0);
+    border-radius: 10px;
+
+}
+
+
+#About-Me{
+    margin-bottom: -15px;
+    margin-left: 20px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+#picD{
+    float: left;
+    width: 25%;
+    margin: 0px 20px 0px;
+    /* background-image: url(Images/Portrait-D.jpg); */
+    /* background-size: 100%; */
+    /* height: 75%; */
+    /* border-radius: 5px; */
+    /* border: 3px solid rgb(107, 3, 0); */
+}
+
+.sub{
+    font-size: 1.75rem;
+}
+
+#description{
+    /* border: 2px solid rgba(0,0,0, 0.4); */
+    /* background-color: rgb(255,113,113); */
+    background-color: rgb(255,172,170);
+    /* background-color: rgb(255,255,255); */
+    width: 100%;
+    overflow: auto;
+    /* margin-top: 20px; */
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+
+#description p{
+    margin-right: 20px;
+}
+
+.photoshop , .illustator, .gifHub{
+    overflow: hidden;
+    /* border: 3px solid black; */
+    /* background-color: rgb(255,172, 170); */
+    background-color: rgb(255, 255, 255);
+    margin: 25px 0px;
+    padding-top: 20px;
+}
+
+.photoshop h2, .illustator h2, .gifHub h2{
+    padding-top: 20px;
+}
+
+.illustator{
+    /* background-color: white; */
+    background-color: rgb(255,172, 170);
+}
+
+.colOne{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 15px; */
+    margin: 10px 0px;
+}
+
+.colTwo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.colThree{
+    display: flex;
+    justify-content: space-around;
+}
+
+.picContainer{
+    /* border: 3px solid rgb(107, 3, 0);; */
+    display: inline-block;
+    width: 29%;
+    height: 325px;
+    padding: 5px;
+    margin: 10px 20px;
+    float: left;
+}
+.picContainer h3{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 0px;
+    -webkit-transition: color .3s;
+    -o-transition: color .3s;
+    transition: color .3s;
+}
+
+.picContainer h3:hover{
+    color: rgba(107, 3, 0, .8);
+}
+
+.picContainer img{
+    display: block;
+    border-style: none;
+    border-radius: 5px;
+    padding: 0px;
+    width: 70%;
+    height: 15rem;
+    margin: 5px auto;
+    /* box-shadow: 0px 5px 5px rgb(107, 3, 0); */
+
+    transition: box-shadow .5s;
+
+}
+.picContainer img:hover{
+    box-shadow: 0px 5px 5px rgb(107, 3, 0);
+}
+
+.illustator .picContainer img, .gifHub .picContainer img{
+    width: 80%;
+    height: 17rem;
+
+}
+
+.illustator .picContainer, .gifHub .picContainer{
+    width: 35%;
+    height: 25rem;
+}
+
+#photo{
+    padding-top: 40px;
+    margin-top: -25px;
+    margin-bottom: 0px;
+    /* border: 2px solid black; */
+}
+
+#adobeIll{
+    padding-top: 40px;
+    margin-top: -25px;
+    margin-bottom: 0px;
+    /* border: 2px solid black; */
+}
+
+#gif{
+    padding-top: 40px;
+    margin-top: -25px;
+    margin-bottom: 0px;
+    /* border: 2px solid black; */
+}
+
+#backButton{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: auto;
+	height: auto;
+	border: 0.3rem solid black;
+	/* padding: 1.5rem; */
+	font-size: 1rem;
+}
+
+#backButton a{
+	text-decoration: none;
+	color: black;
+	padding: 1.25rem;
+	display: inline-block;
+	/* width: 75%; */
+	/* height: 75%; */
+}
