@@ -253,7 +253,7 @@ a{
     float: left;
     padding-top: 2rem;
     width: 20vw;
-    height: 25vh;
+    height: 20vh;
     margin: 1rem;
     overflow: hidden;
 }
@@ -684,13 +684,7 @@ a{
         height: 1.25rem;
         margin: 0 0.25rem;
     }
-
-    .imgContainer{
-        padding-top: 0.5rem;
-        width: 20vw;
-        /* height: 17vh; */
-        margin: 1rem;
-    }
+    
     .imgContainer{
         float: none;
         padding-top: 1.5rem;
